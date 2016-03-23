@@ -16,4 +16,4 @@ def pingpong(n):
             return 0
         else:
             return count(num+1, turn(num)*next) + turn(num) * next
-    count(0, -1)
+    return count(0, -1)
